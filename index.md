@@ -1,11 +1,19 @@
-# JRPG Gacha Wiki
+---
+layout: default
+---
 
-Welcome to your game's wiki! Use the links below to navigate:
+<header>
+  <h1>JRPG Gacha Wiki</h1>
+</header>
 
-- [Characters](characters.md)
-- [Skills](skills.md)
-- [Items](items.md)
+<div class="nav-buttons fade-in">
+  <a href="characters.html" class="nav-button">Characters</a>
+  <a href="skills.html" class="nav-button">Skills</a>
+  <a href="items.html" class="nav-button">Items</a>
+</div>
+
+Welcome to your game's wiki! Select a section above to begin.
 
 ---
 
-*Edit these pages in the GitHub web editor—changes go live automatically!*
+_Edit any page using the GitHub editor. All changes go live automatically!_
