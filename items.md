@@ -1,8 +1,13 @@
+---
+layout: default
+title: Items
+---
+
 # Items
 
-| Name        | Rarity    | Effect                  | Image           |
-|-------------|-----------|-------------------------|-----------------|
-| Potion      | Common    | Heals 50 HP             |                 |
-| Elixir      | Rare      | Fully restores HP/MP    |                 |
+| Name        | Rarity    | Effect                  | Image                                  |
+|-------------|-----------|-------------------------|----------------------------------------|
+| Potion      | Common    | Heals 50 HP             | ![Potion](/assets/images/potion.png)   |
+| Elixir      | Rare      | Fully restores HP/MP    | ![Elixir](/assets/images/elixir.png)   |
 
-_Add or edit items as needed!_
+[← Back to Home](index.html)
