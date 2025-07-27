@@ -2,3 +2,5 @@ title: JRPG Gacha Wiki
 theme: minima
 description: A custom wiki for my turn-based gacha JRPG
 markdown: kramdown
+include:
+  - _includes/head-custom.html
