@@ -1,0 +1,22 @@
+---
+layout: none
+---
+[
+  {% assign type_map = 
+    "characters:characters,skills:skills,items:items" | split: "," %}
+  {% for page in site.pages %}
+    {% assign type = "all" %}
+    {% for p in type_map %}
+      {% assign pair = p | split: ":" %}
+      {% if page.url contains pair[0] %}
+        {% assign type = pair[1] %}
+      {% endif %}
+    {% endfor %}
+    {
+      "title"    : "{{ page.title | default: page.name | escape }}",
+      "url"      : "{{ page.url | absolute_url }}",
+      "content"  : {{ page.content | strip_html | jsonify }},
+      "type"     : "{{ type }}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
